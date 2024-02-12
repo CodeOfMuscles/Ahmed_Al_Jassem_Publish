@@ -74,7 +74,7 @@ buttons.forEach(function(ele){
                 -5px -5px 12px rgb(255,255,255,0.06)
                 `
         });
-        moImg.children[0].src = "moon1.png"
+        moImg.children[0].src = "WhiteCalmoon1.png"
         booleanVOfMoon = false
         localStorage.setItem("stuts","dark");
         
@@ -108,7 +108,7 @@ buttons.forEach(function(ele){
           background: ${mainCol};
           `
         })
-        moImg.children[0].src = "moon.png"
+        moImg.children[0].src = "WhiteCalmoon.png"
 
         booleanVOfMoon = true;
         localStorage.setItem("stuts","light")
