@@ -6,9 +6,10 @@ let lis = ["CL","DEL","%","÷","7","8","9","×","4","5","6","-","1","2","3","+",
 let num = 0
 let booleanVOfMoon = true
 
-inputNums.addEventListener("click",()=>{// when client click on input field it blur
-  inputNums.blur();
-}
+
+inputNums.addEventListener("click",()=>{
+  inputNums.blur()
+})
 
 buttons.forEach(function(ele){
   if(ele === buttons[18]){
