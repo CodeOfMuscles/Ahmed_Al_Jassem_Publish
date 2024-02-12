@@ -5,11 +5,11 @@ let buttons = document.querySelectorAll("button");
 let lis = ["CL","DEL","%","÷","7","8","9","×","4","5","6","-","1","2","3","+","0",".","moon","="]
 let num = 0
 let booleanVOfMoon = true
-function blur(){// function to blur when clint focus on input feild 
-  inputNums.addEventListener("click",()=>{
-    inputNums.blur();
-  }
+
+inputNums.addEventListener("click",()=>{// when client click on input field it blur
+  inputNums.blur();
 }
+
 buttons.forEach(function(ele){
   if(ele === buttons[18]){
     ele.innerHTML = `
