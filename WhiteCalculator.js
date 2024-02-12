@@ -1,6 +1,6 @@
 // to append content of buttons 
 //localStorage.setItem("stuts","light")
-let inputNums = document.querySelector(".feild input");
+let inputNums = document.querySelector("#inputNums");
 let buttons = document.querySelectorAll("button");
 let lis = ["CL","DEL","%","÷","7","8","9","×","4","5","6","-","1","2","3","+","0",".","moon","="]
 let num = 0
